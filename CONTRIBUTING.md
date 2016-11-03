@@ -17,5 +17,3 @@ Translations for Outlook Lite are located in the languages directory. We welcome
 #Pull Requests
 
 Please submit pull requests on the develop branch.
-
-Submit a pull request at any time, whether an issue has been created or not. It may be helpful to discuss your goals in an issue first, though many things can best be shown with code.
