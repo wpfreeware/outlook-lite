@@ -12,7 +12,7 @@
 		 .text(outlookL10n.outlookLabel)
 		 .css({
 			 'display' 			: 'inline-block',
-			 'background-color' : '#2EA2CC',
+			 'background-color' : '#be1931',
 			 'color' 			: '#fff',
 			 'text-transform' 	: 'uppercase',
 			 'margin-top' 		: '6px',
