@@ -86,12 +86,12 @@
 	// home menu links
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'        		=> 'custom',
-		'settings'    		=> 'outlook_menu_target_ids',
+		'settings'    		=> 'outlook_menu_target_links',
 		'label'       		=> __( 'Homepage menu target links', 'outlook-lite' ),
 		'section'     		=> 'outlook_general_settings_section',
 		'default'     		=> '<div style="background:#ffffff;padding:7px;">#ol-main-slider<br/> #ol-about-us<br/> #ol-service<br/> #ol-our-work<br/> #ol-faq-testimonial<br/> #ol-blog<br/></div>',
 		'priority'    		=> 10,
-	) );	
+	) );
 	
 	// font-awesome icon
 	outlook_Kirki::add_field( 'outlook_config', array(
@@ -120,4 +120,4 @@
 			'on'  => esc_attr__( 'Enable', 'outlook-lite' ),
 			'off' => esc_attr__( 'Disable', 'outlook-lite' ),
 		),
-	) );			
+	) );				
