@@ -84,7 +84,6 @@ Images used in screenshot.png were picked from [pexels] (https://www.pexels.com)
 * Respond (https://github.com/scottjehl/Respond) (http://www.opensource.org/licenses/mit-license.php)
 * Slick (http://kenwheeler.github.io/slick/) (https://github.com/kenwheeler/slick/blob/master/LICENSE)
 * Retina (http://imulus.github.io/retinajs/) (https://github.com/imulus/retinajs/blob/master/LICENSE)
-* Counter Up (http://bfintal.github.io/Counter-Up/demo/demo.html) (https://github.com/bfintal/Counter-Up/blob/master/LICENSE)
 
 == Changelogs ==
 
