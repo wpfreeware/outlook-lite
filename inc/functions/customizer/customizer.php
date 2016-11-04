@@ -136,15 +136,7 @@ function outlook_customizer_register( $wp_customize ) {
 	 *
 	 *	@since outlook-lite 1.0
 	 */
-	require_once( get_template_directory() . $customizer_path . '/404.php' );	
-	
-	/*  
-	 *
-	 *	Custom Css - Sections, fields
-	 *
-	 *	@since outlook-lite 1.0
-	 */
-	require_once( get_template_directory() . $customizer_path . '/custom-css.php' );													
+	require_once( get_template_directory() . $customizer_path . '/404.php' );													
 	 		
    
 }

@@ -28,14 +28,6 @@ require_once( $dynamic_css_path . '/css/parallax-image-css.php' );
 require_once( $dynamic_css_path . '/css/blog-title.php' );
 
 /**
- *	contains "Custom Css" styles.
- *	Will appear on throughout the site.
- *	
- *  @since outlook-lite 1.0
- */
-require_once( $dynamic_css_path . '/css/custom-css.php' );
-
-/**
  *	contains "WooCommerce title" section styles.
  *	Will appear all shop pages.
  *	
