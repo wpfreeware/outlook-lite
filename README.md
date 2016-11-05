@@ -12,4 +12,6 @@ We don't answer support questions here on GitHub. Support is available on our of
 
 #Contributing
 
-Please see our Contributing guidelines.
+The development branch is always ahead of the master branch. For that reason, we don't accept Pull Requests against master, as that branch is generally outdated.
+
+When you fork the repo, you'll have access to all the branches, so you would just create a new branch off of development, make your changes, commit, then submit that branch as the Pull Request.
