@@ -625,7 +625,9 @@ function outlook_site_color_scheme(){
 			.woocommerce .ol-shop-details-buttongroup .ol-wishlist-btn:hover,
 			.woocommerce .ol-shop-details-buttongroup .ol-wishlist-btn:focus,
 			.woocommerce .ol-shop-details-buttongroup .ol-compare-btn:hover,
-			.woocommerce .ol-shop-details-buttongroup .ol-compare-btn:focus{
+			.woocommerce .ol-shop-details-buttongroup .ol-compare-btn:focus,
+			.woocommerce .products .product_type_simple:hover,
+			.woocommerce .products .product_type_simple:focus{
 				background-color: ' . $theme_color . ';
 				border-color: ' . $theme_color . ';	
 			}
