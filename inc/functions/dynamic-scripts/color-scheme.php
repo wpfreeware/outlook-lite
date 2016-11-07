@@ -627,7 +627,13 @@ function outlook_site_color_scheme(){
 			.woocommerce .ol-shop-details-buttongroup .ol-compare-btn:hover,
 			.woocommerce .ol-shop-details-buttongroup .ol-compare-btn:focus,
 			.woocommerce .products .product_type_simple:hover,
-			.woocommerce .products .product_type_simple:focus{
+			.woocommerce .products .product_type_simple:focus,
+			.woocommerce .products .product_type_grouped:hover,
+			.woocommerce .products .product_type_external:hover,
+			.woocommerce .products .product_type_variable:hover,
+			.woocommerce .products .product_type_grouped:focus,
+			.woocommerce .products .product_type_external:focus,
+			.woocommerce .products .product_type_variable:focus{
 				background-color: ' . $theme_color . ';
 				border-color: ' . $theme_color . ';	
 			}

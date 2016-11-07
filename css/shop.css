@@ -507,7 +507,10 @@
 }
 
 .woocommerce .products .add_to_cart_button,
-.woocommerce .products .product_type_simple {
+.woocommerce .products .product_type_simple,
+.woocommerce .products .product_type_grouped,
+.woocommerce .products .product_type_external,
+.woocommerce .products .product_type_variable {
 	background-color: transparent;
 	border: 1px solid #ccc;
 	border-radius: 0;
@@ -524,7 +527,13 @@
 .woocommerce .products .add_to_cart_button:hover,
 .woocommerce .products .add_to_cart_button:focus,
 .woocommerce .products .product_type_simple:hover,
-.woocommerce .products .product_type_simple:focus{
+.woocommerce .products .product_type_simple:focus,
+.woocommerce .products .product_type_grouped:hover,
+.woocommerce .products .product_type_external:hover,
+.woocommerce .products .product_type_variable:hover,
+.woocommerce .products .product_type_grouped:focus,
+.woocommerce .products .product_type_external:focus,
+.woocommerce .products .product_type_variable:focus{
 	color: #fff;
 }
 
