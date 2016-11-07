@@ -506,7 +506,8 @@
 	padding: 0 0 10px;
 }
 
-.woocommerce .products .add_to_cart_button{
+.woocommerce .products .add_to_cart_button,
+.woocommerce .products .product_type_simple {
 	background-color: transparent;
 	border: 1px solid #ccc;
 	border-radius: 0;
@@ -521,7 +522,9 @@
 }
 
 .woocommerce .products .add_to_cart_button:hover,
-.woocommerce .products .add_to_cart_button:focus{
+.woocommerce .products .add_to_cart_button:focus,
+.woocommerce .products .product_type_simple:hover,
+.woocommerce .products .product_type_simple:focus{
 	color: #fff;
 }
 
