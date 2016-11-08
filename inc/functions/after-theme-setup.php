@@ -69,7 +69,7 @@ function outlook_setup() {
 	 */		
 	add_theme_support( 'custom-logo', array(
 		'height'      => 90,
-		'width'      => 120,	
+		'width'      => 250,	
 		'flex-height' => false,
 		'flex-width'  => true,
 	) );			
