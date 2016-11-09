@@ -88,6 +88,22 @@
         ),				
 	) );
 	
+	// testimonials help text
+	outlook_Kirki::add_field( 'outlook_config', array(
+		'type'        		=> 'custom',
+		'settings'    		=> 'outlook_testimonial_help_text',
+		'section'     		=> 'outlook_testimonials_faqs_section',
+		'default'     		=> '<div style="background:#ffffff;padding:7px;"> '. esc_html__( 'Please add some testimonials by going back to Dashboard > Testimonials first.', 'outlook-lite' ) .' </div>',
+		'priority'    		=> 10,
+		'active_callback'   => array(
+			array(
+				'setting'  		=> 'outlook_testimonials_faqs_enable_disable',
+				'operator' 		=> '==',
+				'value'    		=> 1,
+			),
+		),		
+	) );	
+	
 	// testimonial slide speed
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'        => 'slider',
