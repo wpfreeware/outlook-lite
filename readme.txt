@@ -72,6 +72,9 @@ Below you will find all the resources that Outlook Lite used.
 Images used in screenshot.png were picked from [pexels] (https://www.pexels.com) 
 & licensed under the [CC0](https://creativecommons.org/choose/zero/)
 
+Image 1: https://www.pexels.com/photo/black-book-with-green-potted-plant-in-white-vase-on-brown-wooden-table-27458/
+Image 2: https://www.pexels.com/photo/writing-notes-idea-class-7103/
+License: https://creativecommons.org/choose/zero/
 
 * Merriweather (https://fonts.google.com/specimen/Merriweather ) (License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 * Raleway ( https://www.google.com/fonts/specimen/Raleway) (License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
