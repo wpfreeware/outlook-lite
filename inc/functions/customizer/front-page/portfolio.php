@@ -41,6 +41,22 @@
 		),
 	) );
 	
+	// portfolio help text
+	outlook_Kirki::add_field( 'outlook_config', array(
+		'type'        		=> 'custom',
+		'settings'    		=> 'outlook_portfolio_help_text',
+		'section'     		=> 'outlook_front_portfolio_section',
+		'default'     		=> '<div style="background:#ffffff;padding:7px;"> '. esc_html__( 'Please add some portfolios by going back to Dashboard > Portfolio first.', 'outlook-lite' ) .' </div>',
+		'priority'    		=> 10,
+		'active_callback'   => array(
+			array(
+				'setting'  		=> 'outlook_portfolio_enable_disable',
+				'operator' 		=> '==',
+				'value'    		=> 1,
+			),
+		),		
+	) );	
+	
 	// title
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'     			=> 'text',
