@@ -55,7 +55,7 @@ Quick Specs
 1. The main content width is 1140px.
 2. The sidebar width is 300px.
 3. Default featured images are 640px wide by 418px high.
-4. 2 level nested menu
+4. 1 level nested menu
 
 
 
