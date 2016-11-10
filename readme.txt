@@ -1,6 +1,4 @@
-About Theme
-=========================
-Theme Name: Outlook Lite
+== About Theme ==
 Theme URI: https://www.wpfreeware.com/outlook-lite
 Author: WpFreeware
 Author URI: https://www.wpfreeware.com/
@@ -11,8 +9,7 @@ License: GPLv3 or later
 Version: 1.0.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Description
-=====================
+== Description ==
 
 Outlook Lite is an excellent onepage WordPress theme which can be used for business, corporate, portfolio, personal, freelancer, designers & other tons of purposes. It supports most of the popular plugins like WooCommerce, Jetpack, bbPress, Gravity Forms, Yoast Seo, Google analytics by yoast, contact form 7, site origin / elemetor drag & drop page builders & many others. 
 
@@ -36,21 +33,18 @@ Outlook Lite gives you an easy to use customizer panel which through you will be
 * Font-Awesome icons
 * The GPL v3.0 or later license. :) Use it to make something cool.
 
-Installation
-=======================
+== Installation ==
 
 1. In your admin panel, go to Appearance -> Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's ZIP file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
 
-Frequently Asked Questions
-============================
+== Frequently Asked Questions ==
 
 Please see theme documentation for details setup instruction.
 
-Quick Specs
-======================
+== Quick Specs ==
 
 1. The main content width is 1140px.
 2. The sidebar width is 300px.
@@ -60,8 +54,7 @@ Quick Specs
 
 
 
-Credits & licenses:
-=======================
+== Credits & licenses: ==
 
 Outlook Lite is distributed under the terms of the GNU GPL v3 or later (http://www.gnu.org/licenses/gpl-3.0.html).
 Below you will find all the resources that Outlook Lite used.
