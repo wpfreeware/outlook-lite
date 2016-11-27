@@ -5,8 +5,8 @@ Author URI: https://www.wpfreeware.com/
 Tags: full-width-template, one-column, custom-colors, theme-options, threaded-comments, sticky-post, custom-background, custom-menu, editor-style, featured-images, right-sidebar, left-sidebar, translation-ready, two-columns
 Requires at least: 4.3
 Tested up to: 4.6.1
+Version: 1.0
 License: GPLv3 or later
-Version: 1.0.0
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
@@ -42,7 +42,8 @@ Outlook Lite gives you an easy to use customizer panel which through you will be
 
 == Frequently Asked Questions ==
 
-Please see theme documentation for details setup instruction.
+Please read theme documentation for details setup instructions:
+https://www.wpfreeware.com/docs/outlook-documentation/
 
 == Quick Specs ==
 
@@ -69,6 +70,8 @@ Image 1: https://www.pexels.com/photo/black-book-with-green-potted-plant-in-whit
 Image 2: https://www.pexels.com/photo/writing-notes-idea-class-7103/
 License: https://creativecommons.org/choose/zero/
 
+== Resources == 
+
 * Merriweather (https://fonts.google.com/specimen/Merriweather ) (License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web)
 * Raleway ( https://www.google.com/fonts/specimen/Raleway) (License: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 * TGM Plugin Activation - http://tgmpluginactivation.com/, 2011, Thomas Griffin [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
@@ -83,5 +86,5 @@ License: https://creativecommons.org/choose/zero/
 
 == Changelogs ==
 
-= 1.0 - Nov 15 2016 =
+= 1.0 - Dec 1 2016 =
 * Initial Release
