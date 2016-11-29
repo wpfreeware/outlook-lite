@@ -4,14 +4,17 @@ Outlook Lite is an excellent onepage WordPress theme which can be used for busin
 Outlook Lite gives you an easy to use customizer panel which through you will be able to edit your website wihtout having any advance knowledge. Its not only responsive also fully retina devices supported, used the most popular front-end framework Bootstrap to design. Your website will look awesome on every kind of devices. You will be able to display a featured slider, services, portfolios, testimonials & much more.
 
 #Documentation
-We recommend reading the Outlook theme documentation.
+Please read theme [documentation](https://www.wpfreeware.com/docs/outlook-documentation/)
 
 #Support Questions
 
-We don't answer support questions here on GitHub. Support is available on our official forum.
+We don't answer support questions here on GitHub. Support is available on our [official forum](https://www.wpfreeware.com/support-forums/forum/outlook-lite/).
 
 #Contributing
 
 The development branch is always ahead of the master branch. For that reason, we don't accept Pull Requests against master, as that branch is generally outdated.
 
 When you fork the repo, you'll have access to all the branches, so you would just create a new branch off of development, make your changes, commit, then submit that branch as the Pull Request.
+
+#Credits
+Theme [credits](https://www.wpfreeware.com/docs/outlook-credits/)
