@@ -3,7 +3,7 @@ Theme URI: https://www.wpfreeware.com/outlook-lite
 Author: WpFreeware
 Author URI: https://www.wpfreeware.com/
 Tags: full-width-template, one-column, custom-colors, theme-options, threaded-comments, sticky-post, custom-background, custom-menu, editor-style, featured-images, right-sidebar, left-sidebar, translation-ready, two-columns
-Requires at least: 4.3
+Requires at least: 4.5
 Tested up to: 4.6.1
 Version: 1.0
 License: GPLv3 or later
