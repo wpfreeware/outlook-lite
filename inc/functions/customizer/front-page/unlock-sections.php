@@ -28,6 +28,6 @@
 		'type'        		=> 'custom',
 		'settings'    		=> 'outlook_menu_target_ids',
 		'section'     		=> 'outlook_home_unlock_section',
-		'default'     		=> '<div><a href="https://www.wpfreeware.com">'. esc_html__( 'Pro Version', 'outlook-lite' ) .'</a> '. esc_html__( 'comes with 7 more sections with awesome features such as counters, team members, pricing tables, client logos & some others. Upgrade to PRO to have them all.', 'outlook-lite' ) .'</div>',
+		'default'     		=> '<div><a href="https://www.wpfreeware.com/outlook-pro/" target="_blank">'. esc_html__( 'Pro Version', 'outlook-lite' ) .'</a> '. esc_html__( 'comes with 7 more sections with awesome features such as counters, team members, pricing tables, client logos & some others. Upgrade to PRO to have them all.', 'outlook-lite' ) .'</div>',
 		'priority'    		=> 10,
 	) );
