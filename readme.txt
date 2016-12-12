@@ -86,5 +86,8 @@ License: https://creativecommons.org/choose/zero/
 
 == Changelogs ==
 
-= 1.0 - Dec 1 2016 =
+= 1.0.1 - Dec 12 2016 =
+* Minor fixes
+
+= 1.0.0 - Dec 1 2016 =
 * Initial Release
