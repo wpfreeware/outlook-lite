@@ -328,28 +328,3 @@ if ( function_exists( 'is_bbpress' ) ) {
 		return $bbpress_sidebar_column;	
 	}
 }
-
-/**
- * 	Display upgrade notice on customizer page
- *
- *	@since outlook-lite 1.0
- */
-function outlook_upsell_notice() {
-	 // Enqueue the script
-	 wp_enqueue_script(
-		 'outlook-customizer-upsell',
-		 get_template_directory_uri() . '/js/upsell.js',
-		 array(), '1.0.0',
-		 true
-	 );
-	 // Localize the script
-	 wp_localize_script(
-		 'outlook-customizer-upsell',
-		 'outlookL10n',
-		 array(
-			 'outlookURL'	=> esc_url( 'https://www.wpfreeware.com' ),
-			 'outlookLabel'	=> __( 'Upgrade Pro', 'outlook-lite' ),
-		 )
-	 );
-}
-add_action( 'customize_controls_enqueue_scripts', 'outlook_upsell_notice' );
