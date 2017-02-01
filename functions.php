@@ -134,7 +134,9 @@ require_once( 'inc/functions/tgm/outlook-required-plugins.php' );
  *
  *  @since outlook-lite 1.0
  */
-require_once( 'inc/functions/customizer/customizer.php' );
+if ( class_exists( 'Kirki' ) ) { 
+	require_once( 'inc/functions/customizer/customizer.php' );
+}
 
 /*
  *  Add metaboxes
