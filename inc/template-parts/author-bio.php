@@ -21,7 +21,7 @@
 		            <?php echo get_avatar( get_the_author_meta( 'ID' ), 120 ); ?>
 		        </div>
 		        <div class="media-body">
-		           <h4 class="ol-author-name"><?php the_author(); ?></h4>
+		           <h4 class="ol-author-name"><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author_meta( 'display_name' ); ?></a></h4>
 		           <p><?php the_author_meta('description');?></p>
 		           
 		        </div>
