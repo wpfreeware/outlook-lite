@@ -26,7 +26,7 @@
 	 */
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'        		=> 'custom',
-		'settings'    		=> 'outlook_menu_target_ids',
+		'settings'    		=> 'outlook_home_unlock_section_info',
 		'section'     		=> 'outlook_home_unlock_section',
 		'default'     		=> '<div><a href="https://www.wpfreeware.com/outlook-pro/" target="_blank">'. esc_html__( 'Pro Version', 'outlook-lite' ) .'</a> '. esc_html__( 'comes with 7 more sections with awesome features such as counters, team members, pricing tables, client logos & some others. Upgrade to PRO to have them all.', 'outlook-lite' ) .'</div>',
 		'priority'    		=> 10,
