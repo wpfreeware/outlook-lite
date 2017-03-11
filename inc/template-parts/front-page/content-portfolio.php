@@ -143,7 +143,6 @@ if( class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'custom-content-type
 																<?php echo $content_markup_start; ?>
 																	<?php the_title( '<h2>', '</h2>' ); ?>
 																	<?php the_content(); ?>
-																	<?php get_template_part( 'inc/template-parts/portfolio', 'info' ); ?>
 																		
 																	</div>
 																</div>

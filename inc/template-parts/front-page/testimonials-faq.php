@@ -101,20 +101,6 @@
 																				<div class="ol-clients-testimonial-info">	
 																					<?php the_content(); ?>
 																					<?php the_title( '<h4 class="ol-clients-name">', '</h4>' );?>
-																					
-																					<?php
-																						/*
-																						 *  Testimonial Meta
-																						 *	set variables
-																						 *
-																						 *	@since outlook-lite 1.0
-																						 */
-																						$testimonial_position = esc_html( get_post_meta( get_the_ID(), '_outlook_testimonial_position', true ) );
-																					?>
-																					
-																					<?php if( $testimonial_position ): ?>
-																						<span class="ol-clients-status"> <?php echo $testimonial_position; ?> </span>
-																					<?php endif; ?>
 																				</div>
 																			</div>
 																			<!-- End single slide item -->

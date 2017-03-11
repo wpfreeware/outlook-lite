@@ -47,13 +47,6 @@ get_header(); ?>
 															<?php the_content(); ?>
 														</div>
 													
-													
-														<div class="ol-portfolio-detail-description-right col-md-4 col-sm-5">
-															
-															<?php get_template_part( 'inc/template-parts/portfolio', 'info' ); ?>
-															
-														</div>
-													
 													</div>
 												</div>
 												

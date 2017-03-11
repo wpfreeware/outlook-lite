@@ -126,6 +126,14 @@ require_once( 'inc/functions/enqueue.php' );
  * @since outlook-lite 1.0
  */
 require_once( 'inc/functions/tgm/outlook-required-plugins.php' );
+
+/*
+ *  Embeed Kirki framework
+ *  @link https://github.com/aristath/kirki  
+ *
+ *  @since outlook-lite 1.0.3
+ */
+include_once( dirname( __FILE__ ) . '/inc/kirki/kirki.php' );
   
 /*
  *  Add customizer settings
@@ -134,18 +142,9 @@ require_once( 'inc/functions/tgm/outlook-required-plugins.php' );
  *
  *  @since outlook-lite 1.0
  */
-if ( class_exists( 'Kirki' ) ) { 
+if ( class_exists( 'Kirki' ) ) {
 	require_once( 'inc/functions/customizer/customizer.php' );
 }
-
-/*
- *  Add metaboxes
- *	Add CMB2 framework to build metabox optoins. 
- *  @link https://github.com/aristath/kirki  
- *
- *  @since outlook-lite 1.0
- */
-require_once( 'inc/functions/meta-boxes/metabox.php' );
 
 /**
  *  Add dynamic css

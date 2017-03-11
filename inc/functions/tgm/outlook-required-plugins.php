@@ -59,19 +59,9 @@ function outlook_register_required_plugins() {
 
 		// include plugins from the WordPress Plugin Repository.
 		array(
-			'name'      => 'Kirki',
-			'slug'      => 'kirki',
-			'required'  => true,
-		),
-		array(
-			'name'      => 'CMB2',
-			'slug'      => 'cmb2',
-			'required'  => true,
-		),
-		array(
 			'name'      => 'Jetpack by WordPress.com',
 			'slug'      => 'jetpack',
-			'required'  => true,
+			'required'  => false,
 		),					
 	);
 

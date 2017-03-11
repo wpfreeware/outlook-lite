@@ -1,19 +1,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: outlook-lite\n"
-"POT-Creation-Date: 2016-11-09 21:25+0600\n"
-"PO-Revision-Date: 2016-11-09 21:25+0600\n"
+"POT-Creation-Date: 2017-03-11 11:37+0600\n"
+"PO-Revision-Date: 2017-03-11 11:38+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_html__;_n_noop;_x\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: comments.php:26
@@ -146,7 +146,6 @@ msgstr ""
 #: inc/functions/customizer/front-page/blog.php:143
 #: inc/functions/customizer/front-page/callout-footer.php:73
 #: inc/functions/customizer/front-page/featured-slider.php:64
-#: inc/functions/meta-boxes/metabox-portfolio.php:83
 msgid "Button text"
 msgstr ""
 
@@ -298,8 +297,10 @@ msgid "Repeat Y"
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:146
+#: inc/functions/customizer/customizer.php:180
 #: inc/functions/customizer/front-page/image-parallax.php:238
 #: inc/functions/customizer/woocommerce.php:140
+#: inc/kirki/includes/class-kirki-l10n.php:106
 msgid "No Repeat"
 msgstr ""
 
@@ -445,7 +446,9 @@ msgid "Title"
 msgstr ""
 
 #: inc/functions/customizer/blog/blog-title.php:92
+#: inc/functions/customizer/customizer.php:179
 #: inc/functions/customizer/front-page/image-parallax.php:155
+#: inc/kirki/includes/class-kirki-l10n.php:105
 msgid "Background Image"
 msgstr ""
 
@@ -455,6 +458,431 @@ msgstr ""
 
 #: inc/functions/customizer/blog/blog-title.php:157
 msgid "Top/Bottom Padding"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:178
+#: inc/kirki/includes/class-kirki-l10n.php:104
+msgid "Background Color"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:181
+#: inc/kirki/includes/class-kirki-l10n.php:107
+msgid "Repeat All"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:182
+#: inc/kirki/includes/class-kirki-l10n.php:108
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:183
+#: inc/kirki/includes/class-kirki-l10n.php:109
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:184
+#: inc/kirki/includes/class-kirki-l10n.php:110
+msgid "Inherit"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:185
+#: inc/kirki/includes/class-kirki-l10n.php:111
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:186
+#: inc/kirki/includes/class-kirki-l10n.php:112
+msgid "Cover"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:187
+#: inc/kirki/includes/class-kirki-l10n.php:113
+msgid "Contain"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:188
+#: inc/kirki/includes/class-kirki-l10n.php:114
+msgid "Background Size"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:189
+#: inc/kirki/includes/class-kirki-l10n.php:115
+msgid "Fixed"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:190
+#: inc/kirki/includes/class-kirki-l10n.php:116
+msgid "Scroll"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:191
+#: inc/kirki/includes/class-kirki-l10n.php:117
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:192
+#: inc/kirki/includes/class-kirki-l10n.php:118
+msgid "Left Top"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:193
+#: inc/kirki/includes/class-kirki-l10n.php:119
+msgid "Left Center"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:194
+#: inc/kirki/includes/class-kirki-l10n.php:120
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:195
+#: inc/kirki/includes/class-kirki-l10n.php:121
+msgid "Right Top"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:196
+#: inc/kirki/includes/class-kirki-l10n.php:122
+msgid "Right Center"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:197
+#: inc/kirki/includes/class-kirki-l10n.php:123
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:198
+#: inc/kirki/includes/class-kirki-l10n.php:124
+msgid "Center Top"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:199
+#: inc/kirki/includes/class-kirki-l10n.php:125
+msgid "Center Center"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:200
+#: inc/kirki/includes/class-kirki-l10n.php:126
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:201
+#: inc/kirki/includes/class-kirki-l10n.php:127
+msgid "Background Position"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:202
+#: inc/kirki/includes/class-kirki-l10n.php:128
+msgid "Background Opacity"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:203
+#: inc/kirki/includes/class-kirki-l10n.php:129
+msgid "ON"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:204
+#: inc/kirki/includes/class-kirki-l10n.php:130
+msgid "OFF"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:205
+#: inc/kirki/includes/class-kirki-l10n.php:131
+msgid "All"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:206
+#: inc/kirki/includes/class-kirki-l10n.php:132
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:207
+#: inc/kirki/includes/class-kirki-l10n.php:133
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:208
+#: inc/kirki/includes/class-kirki-l10n.php:134
+msgid "Devanagari"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:209
+#: inc/kirki/includes/class-kirki-l10n.php:135
+msgid "Greek"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:210
+#: inc/kirki/includes/class-kirki-l10n.php:136
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:211
+#: inc/kirki/includes/class-kirki-l10n.php:137
+msgid "Khmer"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:212
+#: inc/kirki/includes/class-kirki-l10n.php:138
+msgid "Latin"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:213
+#: inc/kirki/includes/class-kirki-l10n.php:139
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:214
+#: inc/kirki/includes/class-kirki-l10n.php:140
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:215
+#: inc/kirki/includes/class-kirki-l10n.php:141
+msgid "Hebrew"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:216
+#: inc/kirki/includes/class-kirki-l10n.php:142
+msgid "Arabic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:217
+#: inc/kirki/includes/class-kirki-l10n.php:143
+msgid "Bengali"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:218
+#: inc/kirki/includes/class-kirki-l10n.php:144
+msgid "Gujarati"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:219
+#: inc/kirki/includes/class-kirki-l10n.php:145
+msgid "Tamil"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:220
+#: inc/kirki/includes/class-kirki-l10n.php:146
+msgid "Telugu"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:221
+#: inc/kirki/includes/class-kirki-l10n.php:147
+msgid "Thai"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:222
+#: inc/kirki/includes/class-kirki-l10n.php:148
+msgid "Serif"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:223
+#: inc/kirki/includes/class-kirki-l10n.php:149
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:224
+#: inc/kirki/includes/class-kirki-l10n.php:150
+msgid "Monospace"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:225
+#: inc/kirki/includes/class-kirki-l10n.php:151
+msgid "Font Family"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:226
+#: inc/kirki/includes/class-kirki-l10n.php:152
+msgid "Font Size"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:227
+#: inc/kirki/includes/class-kirki-l10n.php:153
+msgid "Font Weight"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:228
+#: inc/kirki/includes/class-kirki-l10n.php:154
+msgid "Line Height"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:229
+#: inc/kirki/includes/class-kirki-l10n.php:155
+msgid "Font Style"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:230
+#: inc/kirki/includes/class-kirki-l10n.php:156
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:231
+#: inc/kirki/includes/class-kirki-l10n.php:157
+msgid "Top"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:232
+#: inc/kirki/includes/class-kirki-l10n.php:158
+msgid "Bottom"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:233
+#: inc/kirki/includes/class-kirki-l10n.php:159
+msgid "Left"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:234
+#: inc/kirki/includes/class-kirki-l10n.php:160
+msgid "Right"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:235
+#: inc/kirki/includes/class-kirki-l10n.php:163
+msgid "Color"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:236
+#: inc/kirki/includes/class-kirki-l10n.php:164
+msgid "Add Image"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:237
+#: inc/kirki/includes/class-kirki-l10n.php:165
+msgid "Change Image"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:238
+#: inc/kirki/includes/class-kirki-l10n.php:170
+msgid "Remove"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:239
+#: inc/kirki/includes/class-kirki-l10n.php:166
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:240
+#: inc/kirki/includes/class-kirki-l10n.php:171
+msgid "Select a font-family"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:241
+#: inc/kirki/includes/class-kirki-l10n.php:172
+msgid "Variant"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:242
+#: inc/kirki/includes/class-kirki-l10n.php:173
+msgid "Subset"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:243
+#: inc/kirki/includes/class-kirki-l10n.php:174
+msgid "Size"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:244
+#: inc/kirki/includes/class-kirki-l10n.php:175
+msgid "Height"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:245
+#: inc/kirki/includes/class-kirki-l10n.php:176
+msgid "Spacing"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:246
+#: inc/kirki/includes/class-kirki-l10n.php:177
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:247
+#: inc/kirki/includes/class-kirki-l10n.php:178
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:248
+#: inc/kirki/includes/class-kirki-l10n.php:179
+msgid "Light 200"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:249
+#: inc/kirki/includes/class-kirki-l10n.php:180
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:250
+#: inc/kirki/includes/class-kirki-l10n.php:181
+msgid "Book 300"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:251
+#: inc/kirki/includes/class-kirki-l10n.php:182
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:252
+#: inc/kirki/includes/class-kirki-l10n.php:183
+msgid "Normal 400"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:253
+#: inc/kirki/includes/class-kirki-l10n.php:184
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:254
+#: inc/kirki/includes/class-kirki-l10n.php:185
+msgid "Medium 500"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:255
+#: inc/kirki/includes/class-kirki-l10n.php:186
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:256
+#: inc/kirki/includes/class-kirki-l10n.php:187
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:257
+#: inc/kirki/includes/class-kirki-l10n.php:188
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:258
+#: inc/kirki/includes/class-kirki-l10n.php:189
+msgid "Bold 700"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:259
+#: inc/kirki/includes/class-kirki-l10n.php:190
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:260
+#: inc/kirki/includes/class-kirki-l10n.php:191
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:261
+#: inc/kirki/includes/class-kirki-l10n.php:192
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:262
+#: inc/kirki/includes/class-kirki-l10n.php:193
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:263
+#: inc/kirki/includes/class-kirki-l10n.php:194
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/functions/customizer/customizer.php:264
+#: inc/kirki/includes/class-kirki-l10n.php:195
+msgid "Invalid Value"
 msgstr ""
 
 #: inc/functions/customizer/font-awesome-icons.php:17
@@ -2894,7 +3322,6 @@ msgstr ""
 
 #: inc/functions/customizer/front-page/blog.php:167
 #: inc/functions/customizer/front-page/callout-footer.php:97
-#: inc/functions/meta-boxes/metabox-portfolio.php:90
 msgid "Button url"
 msgstr ""
 
@@ -3284,101 +3711,6 @@ msgstr ""
 msgid "Load More"
 msgstr ""
 
-#: inc/functions/meta-boxes/metabox-page.php:20
-msgid "Page Options (PRO)"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-page.php:28
-#: inc/functions/meta-boxes/metabox-portfolio.php:119
-msgid "Please upgrade to PRO to have these options."
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:24
-msgid "Portfolio Informations"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:31
-msgid "Show some informations about this project."
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:38
-msgid "Client lebel"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:39
-msgid "Put a lebel. Ex: Client"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:45
-msgid "Client name"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:46
-msgid "Put client name. Ex: Jon olsson"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:53
-msgid "Date lebel"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:54
-msgid "Put a lebel for date. Ex: Date"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:60
-msgid "Date"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:61
-msgid "Put this project completion date. Ex: January 1, 2015"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:68
-msgid "Skill lebel"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:69
-msgid "Put a lebel for skill or whatever you like to display. Ex: Skills"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:75
-msgid "Skill names"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:76
-msgid ""
-"Put skills that used to complete this project or whatever you like to "
-"display. Ex: Design, development"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-portfolio.php:111
-msgid "Portfolio Title Bar (PRO)"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-post.php:21
-msgid "Post Title Bar (Pro)"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-post.php:29
-msgid "Please upgrade to PRO to have these options"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-testimonial.php:21
-msgid "Customer Info"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-testimonial.php:29
-msgid "Position"
-msgstr ""
-
-#: inc/functions/meta-boxes/metabox-testimonial.php:30
-msgid "Ex: CEO of company"
-msgstr ""
-
-#: inc/functions/miscellaneous.php:351
-msgid "Upgrade Pro"
-msgstr ""
-
 #: inc/functions/tgm/class-tgm-plugin-activation.php:327
 msgid "Install Required Plugins"
 msgstr ""
@@ -3399,6 +3731,50 @@ msgstr ""
 
 #: inc/functions/tgm/class-tgm-plugin-activation.php:333
 msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
 msgstr ""
 
 #: inc/functions/tgm/class-tgm-plugin-activation.php:385
@@ -3526,6 +3902,15 @@ msgstr ""
 
 #: inc/functions/tgm/class-tgm-plugin-activation.php:2333
 msgid "Update recommended"
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/functions/tgm/class-tgm-plugin-activation.php:2482
+msgid "unknown"
 msgstr ""
 
 #: inc/functions/tgm/class-tgm-plugin-activation.php:2490
@@ -3698,6 +4083,100 @@ msgstr ""
 
 #: inc/functions/wp_comments_list.php:35
 msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:161
+msgid "Center"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:162
+msgid "Justify"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:167
+msgid "Add File"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:168
+msgid "Change File"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:169
+msgid "No File Selected"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:196
+msgid "Add new"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:197
+msgid "row"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:198
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:199
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:200
+msgid "Back"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:201
+#, php-format
+msgid "%s Reset"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:202
+msgid "Text Align"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:203
+msgid "Text Transform"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:204
+msgid "None"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:205
+msgid "Capitalize"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:206
+msgid "Uppercase"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:207
+msgid "Lowercase"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:208
+msgid "Initial"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:209
+msgid "Select a Page"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:210
+msgid "Open Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:211
+msgid "Close Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:212
+msgid "Switch Editor"
+msgstr ""
+
+#: inc/kirki/includes/class-kirki-l10n.php:213
+msgid "Hex Value"
 msgstr ""
 
 #: inc/template-parts/blog-pagination.php:51
