@@ -39,7 +39,7 @@
 		'settings' 			=> 'outlook_blog_title_text',
 		'label'    			=> __( 'Title', 'outlook-lite' ),
 		'section'  			=> 'outlook_blog_section',
-		'default'  			=> '',
+		'default'  			=> __( 'Blog', 'outlook-lite' ),
 		'priority' 			=> 10,
 		'active_callback'   => array(
 			array(
@@ -86,6 +86,7 @@
         ),				
 	) );	
 	
+	// background image
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'        		=> 'custom',
 		'settings'    		=> 'outlook_blog_title_bg_msg',
@@ -156,7 +157,7 @@
 		'settings'    		=> 'outlook_blog_title_padding',
 		'label'       		=> __( 'Top/Bottom Padding', 'outlook-lite' ),
 		'section'     		=> 'outlook_blog_section',
-		'default'     		=> 400,
+		'default'     		=> 70,
 		'choices'     		=> array(
 			'min'  => '70',
 			'max'  => '1000',

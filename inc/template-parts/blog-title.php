@@ -24,7 +24,7 @@
 			<div class="container">
 				<div class="ol-blog-sub-header-area">
 					
-					<?php $blog_title_text	=	esc_html( get_theme_mod( 'outlook_blog_title_text', '' ) ); ?>	
+					<?php $blog_title_text	=	esc_html( get_theme_mod( 'outlook_blog_title_text', 'Blog' ) ); ?>	
 						
 					<?php if ( is_category() ) : ?>
 						<!-- category archive -->

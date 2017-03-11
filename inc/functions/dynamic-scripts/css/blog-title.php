@@ -25,7 +25,7 @@ function outlook_blog_title_section_styles(){
 	// background size
 	$blog_title_bg_image_size 			= 	'background-size:' . esc_html( get_theme_mod( 'outlook_blog_title_bg_img_size', 'cover' ) ) . ';';
 	// top/bottom padding
-	$blog_title_section_padding 		= 	'padding:' . esc_html( get_theme_mod( 'outlook_blog_title_padding', '400' ) ) . 'px 0;';
+	$blog_title_section_padding 		= 	'padding:' . esc_html( get_theme_mod( 'outlook_blog_title_padding', '70' ) ) . 'px 0;';
 	// background overlay color
 	$blog_title_section_bg_color 		= 	'background-color:' . esc_html( get_theme_mod( 'outlook_blog_title_bg_img_color', 'rgba(0, 0, 0, 0.4)' ) ) . ';';	
 
