@@ -85,7 +85,7 @@
 		'label'    			=> __( 'Check to hide off-canvas', 'outlook-lite' ),
 		'section'  			=> 'outlook_header_section',
 		'priority' 			=> 10,
-		'default'     		=> '0',
+		'default'     		=> '1',
 		'active_callback'   => array(
 			array(
 				'setting'  		=> 'outlook_header_styles',

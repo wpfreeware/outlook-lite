@@ -70,16 +70,6 @@ if ( $home_blog_section == true ):	?>
 																</div>
 															<?php endif; ?>
 															
-															<!-- post categories -->
-															<div class="ol-blog-item-tag">
-																<?php 
-																	$home_blog_categories	=	esc_html( get_theme_mod( 'outlook_home_blog_categories', '0' ) );
-																	if( $home_blog_categories != true) :
-																		the_category('/ ');
-																	endif;
-																?>
-															</div>
-															
 															<!-- post title -->
 															<h2 class="ol-blog-title">
 																<a href="<?php esc_url( the_permalink() ); ?>"><?php the_title(); ?></a>
@@ -102,6 +92,7 @@ if ( $home_blog_section == true ):	?>
 																?>																
 																	<li> <i class="fa fa-calendar">	</i> <span><?php the_time( get_option( 'date_format' ) ); ?></span></li>
 																<?php endif; ?>
+																
 															</ul>
 															
 														</header>

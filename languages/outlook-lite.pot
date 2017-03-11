@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: outlook-lite\n"
-"POT-Creation-Date: 2017-03-11 11:37+0600\n"
-"PO-Revision-Date: 2017-03-11 11:38+0600\n"
+"POT-Creation-Date: 2017-03-11 13:17+0600\n"
+"PO-Revision-Date: 2017-03-11 13:17+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -36,23 +36,23 @@ msgstr ""
 msgid "Sorry! couldn't find the posts you're looking for..."
 msgstr ""
 
-#: content.php:76 inc/template-parts/front-page/content-blog.php:131
-#: inc/template-parts/related-posts.php:120 post-meta.php:53
+#: content.php:62 inc/template-parts/front-page/content-blog.php:122
+#: inc/template-parts/related-posts.php:106 post-meta.php:53
 msgid "0"
 msgstr ""
 
-#: content.php:77 inc/template-parts/front-page/content-blog.php:132
-#: inc/template-parts/related-posts.php:121 post-meta.php:54
+#: content.php:63 inc/template-parts/front-page/content-blog.php:123
+#: inc/template-parts/related-posts.php:107 post-meta.php:54
 msgid "1"
 msgstr ""
 
-#: content.php:78 inc/template-parts/front-page/content-blog.php:133
-#: inc/template-parts/related-posts.php:122 post-meta.php:55
+#: content.php:64 inc/template-parts/front-page/content-blog.php:124
+#: inc/template-parts/related-posts.php:108 post-meta.php:55
 msgid "%"
 msgstr ""
 
-#: content.php:84 inc/template-parts/front-page/content-blog.php:141
-#: inc/template-parts/related-posts.php:128
+#: content.php:70 inc/template-parts/front-page/content-blog.php:132
+#: inc/template-parts/related-posts.php:114
 msgid "Read More"
 msgstr ""
 
@@ -143,7 +143,7 @@ msgid "Short Description"
 msgstr ""
 
 #: inc/functions/customizer/404.php:76
-#: inc/functions/customizer/front-page/blog.php:143
+#: inc/functions/customizer/front-page/blog.php:133
 #: inc/functions/customizer/front-page/callout-footer.php:73
 #: inc/functions/customizer/front-page/featured-slider.php:64
 msgid "Button text"
@@ -244,28 +244,28 @@ msgid ""
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:114
-#: inc/functions/customizer/blog/blog-title.php:109
+#: inc/functions/customizer/blog/blog-title.php:110
 #: inc/functions/customizer/front-page/image-parallax.php:206
 #: inc/functions/customizer/woocommerce.php:115
 msgid "Background size"
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:120
-#: inc/functions/customizer/blog/blog-title.php:115
+#: inc/functions/customizer/blog/blog-title.php:116
 #: inc/functions/customizer/front-page/image-parallax.php:212
 #: inc/functions/customizer/woocommerce.php:121
 msgid "cover"
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:121
-#: inc/functions/customizer/blog/blog-title.php:116
+#: inc/functions/customizer/blog/blog-title.php:117
 #: inc/functions/customizer/front-page/image-parallax.php:213
 #: inc/functions/customizer/woocommerce.php:122
 msgid "contain"
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:122
-#: inc/functions/customizer/blog/blog-title.php:117
+#: inc/functions/customizer/blog/blog-title.php:118
 #: inc/functions/customizer/front-page/image-parallax.php:214
 #: inc/functions/customizer/woocommerce.php:123
 msgid "initial"
@@ -305,7 +305,7 @@ msgid "No Repeat"
 msgstr ""
 
 #: inc/functions/customizer/bbpress.php:161
-#: inc/functions/customizer/blog/blog-title.php:132
+#: inc/functions/customizer/blog/blog-title.php:133
 #: inc/functions/customizer/front-page/image-parallax.php:253
 #: inc/functions/customizer/woocommerce.php:148
 msgid "Background overlay"
@@ -333,6 +333,7 @@ msgid "Disable footer callout text from bbPress pages."
 msgstr ""
 
 #: inc/functions/customizer/blog.php:17
+#: inc/functions/customizer/blog/blog-title.php:42
 #: inc/functions/customizer/front-page/blog.php:16
 msgid "Blog"
 msgstr ""
@@ -445,18 +446,18 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: inc/functions/customizer/blog/blog-title.php:92
+#: inc/functions/customizer/blog/blog-title.php:93
 #: inc/functions/customizer/customizer.php:179
 #: inc/functions/customizer/front-page/image-parallax.php:155
 #: inc/kirki/includes/class-kirki-l10n.php:105
 msgid "Background Image"
 msgstr ""
 
-#: inc/functions/customizer/blog/blog-title.php:94
+#: inc/functions/customizer/blog/blog-title.php:95
 msgid "Please upload image by going back to the Header Image menu"
 msgstr ""
 
-#: inc/functions/customizer/blog/blog-title.php:157
+#: inc/functions/customizer/blog/blog-title.php:158
 msgid "Top/Bottom Padding"
 msgstr ""
 
@@ -3301,26 +3302,22 @@ msgid "How many posts you want to display?"
 msgstr ""
 
 #: inc/functions/customizer/front-page/blog.php:93
-msgid "Check to disable categories"
-msgstr ""
-
-#: inc/functions/customizer/front-page/blog.php:103
 msgid "Check to disable author name"
 msgstr ""
 
-#: inc/functions/customizer/front-page/blog.php:113
+#: inc/functions/customizer/front-page/blog.php:103
 msgid "Check to disable post date"
 msgstr ""
 
-#: inc/functions/customizer/front-page/blog.php:123
+#: inc/functions/customizer/front-page/blog.php:113
 msgid "Check to disable post comment count"
 msgstr ""
 
-#: inc/functions/customizer/front-page/blog.php:133
+#: inc/functions/customizer/front-page/blog.php:123
 msgid "Check to disable post read more link"
 msgstr ""
 
-#: inc/functions/customizer/front-page/blog.php:167
+#: inc/functions/customizer/front-page/blog.php:157
 #: inc/functions/customizer/front-page/callout-footer.php:97
 msgid "Button url"
 msgstr ""
@@ -4236,7 +4233,7 @@ msgstr ""
 msgid "You Might Also Like"
 msgstr ""
 
-#: inc/template-parts/related-posts.php:103 page.php:58 post-meta.php:62
+#: inc/template-parts/related-posts.php:89 page.php:58 post-meta.php:76
 msgid " Edit"
 msgstr ""
 

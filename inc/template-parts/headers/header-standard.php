@@ -76,7 +76,7 @@
 		 *
 		 *	@since outlook-lite 1.0
 		 */ 
-		$header_off_canvas	=	esc_html( get_theme_mod( 'outlook_header_off_canvas', '0' ) );
+		$header_off_canvas	=	esc_html( get_theme_mod( 'outlook_header_off_canvas', '1' ) );
 		
 		if( $header_off_canvas == false ) :	
 			get_template_part( 'inc/template-parts/headers/off', 'canvas' );

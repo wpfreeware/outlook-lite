@@ -3569,7 +3569,6 @@ button:focus {
 }
 
 .ol-blog-meta li{
-	border-right: 1px solid #ddd;
 	color: #888;
 	display: inline-block;
 	float: left;
@@ -3587,7 +3586,6 @@ button:focus {
 }
 
 .ol-blog-meta li:last-child{
-	border-right: none;
 	margin-right: 0;
 	padding-right: 0;		
 }

@@ -59,6 +59,20 @@
 		</li>
 	<?php endif; ?>	
 	
+	<?php
+		/*
+		 *	on/off author name in post meta
+		 *
+		 *	@since outlook-lite 1.0
+		 */
+		$meta_cat = esc_html( get_theme_mod( 'outlook_blog_meta_cat', '0' ) );
+		
+		if( $meta_cat == false ) : ?>
+			<li> <i class="fa fa-bars" aria-hidden="true"></i> 
+				<?php the_category(' <span>/</span> '); ?>
+			</li>
+	<?php endif; ?>
+	
 	<?php edit_post_link( __(' Edit', 'outlook-lite' ), '<li><i class="fa fa-pencil" aria-hidden="true"></i>', '</li>' ); ?>
 	
 </ul>

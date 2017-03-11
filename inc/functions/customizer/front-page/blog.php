@@ -86,16 +86,6 @@
 		),				
 	) );
 	
-	// enable/disable categories
-	outlook_Kirki::add_field( 'outlook_config', array(
-		'type'     			=> 'checkbox',
-		'settings' 			=> 'outlook_home_blog_categories',
-		'label'    			=> __( 'Check to disable categories', 'outlook-lite' ),
-		'section'  			=> 'outlook_home_blog_section',
-		'priority' 			=> 10,
-		'default'     		=> '0',		
-	) );
-	
 	// enable/disable author name
 	outlook_Kirki::add_field( 'outlook_config', array(
 		'type'     			=> 'checkbox',
