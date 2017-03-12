@@ -79,7 +79,7 @@ function outlook_scripts() {
 	// slick slider js
 	wp_enqueue_script( 'outlook-slickslider-js', get_template_directory_uri() . '/js/slick.min.js', array( 'jquery' ), '1.6.0', true );
 	// retina js
-	wp_enqueue_script( 'outlook-retina-js', get_template_directory_uri() . '/js/retina.js', array(), '2.1.0', true );	
+	wp_enqueue_script( 'outlook-retina-js', get_template_directory_uri() . '/js/retina.min.js', array(), '2.1.0', true );	
 	// custom js
 	wp_enqueue_script( 'outlook-custom-js', get_template_directory_uri() . '/js/custom.js', false, $outlook_pro->version , true );
 	
