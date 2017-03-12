@@ -9,26 +9,25 @@
  * @since       2.2.7
  */
 
-if ( ! class_exists( 'Kirki_Field_Radio' ) ) {
+if ( ! class_exists( 'Kirki_Field_URL' ) ) {
 
 	/**
 	 * Field overrides.
 	 */
-	class Kirki_Field_Radio extends Kirki_Field {
+	class Kirki_Field_URL extends Kirki_Field_Kirki_Generic {
 
 		/**
-		 * Sets the control type.
+		 * Sets the $choices
 		 *
 		 * @access protected
 		 */
-		protected function set_type() {
+		protected function set_choices() {
 
-			$this->type = 'kirki-radio';
-			// Tweaks for backwards-compatibility:
-			// Prior to version 0.8 radio-buttonset & radio-image were part of the radio control.
-			if ( in_array( $this->mode, array( 'buttonset', 'image' ) ) ) {
-				$this->type = 'radio-' . $this->mode;
+			if ( ! is_array( $this->choices ) ) {
+				$this->choices = array();
 			}
+			$this->choices['element'] = 'input';
+			$this->choices['type']    = 'text';
 
 		}
 
@@ -44,7 +43,7 @@ if ( ! class_exists( 'Kirki_Field_Radio' ) ) {
 			if ( ! empty( $this->sanitize_callback ) ) {
 				return;
 			}
-			$this->sanitize_callback = 'esc_attr';
+			$this->sanitize_callback = 'esc_url_raw';
 
 		}
 	}
