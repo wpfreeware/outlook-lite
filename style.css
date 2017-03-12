@@ -303,6 +303,7 @@ button:focus {
 	font-size: 30px;
 	font-weight: 700;
 	margin-top: 5px;
+	max-width: 400px;
 }
 
 .ol-logo:hover,
@@ -314,6 +315,10 @@ button:focus {
 .ol-logo span{
 	 -webkit-transition: all 0.5s;
         transition: all 0.5s;
+}
+
+.ol-logo span{
+	line-height: 35px;
 }
 
 .ol-transparent-header .ol-logo{
@@ -332,9 +337,14 @@ button:focus {
 	margin-top: 5px;
 }
 
+#ol-header.ol-transparent-header-fixed .ol-logo span{
+	padding-top: 13px;	
+}
+
 .ol-transparent-header .ol-logo span{
 	display: inline-block;	
 	padding-top: 20px;	
+
 }
 
 .ol-transparent-header .navbar-collapse{
@@ -1201,6 +1211,7 @@ button:focus {
 	margin-top: 0;
 	padding: 0 15px;
 	color: #ffffff;
+	max-width: 300px;
 }
 
 .ol-header-box .ol-logo img {
@@ -1219,7 +1230,7 @@ button:focus {
 
 .ol-header-box .ol-logo span {
 	display: block;
-	margin-top: 18px;
+	margin-top: 14px;
 	-webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -1227,7 +1238,7 @@ button:focus {
 .ol-header-box-fixed .ol-logo span {
 	display: block;
 	font-size: 25px;
-	margin-top: 20px;
+	margin-top: 13px;
 }
 
 .ol-header-box .ol-side-button-area {
@@ -6833,6 +6844,10 @@ button:focus {
 		width: 49.5%;
 	}
 	
+	.ol-logo{
+		max-width: 300px;
+	}
+	
 
 	
 }
@@ -9588,6 +9603,19 @@ button:focus {
 	
 	.ol-side-menu-close-btn{
 		top: 9%;
+	}
+	
+	.ol-logo {
+		max-width: 150px;
+	}
+	
+	.ol-logo span {
+		line-height: 20px;
+		font-size: 15px;
+	}
+	
+	.ol-header-box .ol-logo {
+		max-width: 150px;
 	}
 
 }
