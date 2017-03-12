@@ -86,6 +86,20 @@ License: https://creativecommons.org/choose/zero/
 
 == Changelogs ==
 
+= 1.0.3 - Mar 12 2016 =
+* Embed kirki.
+* Fixed blog title & added a default title text “Blog”.
+* Removed blog post meta border-right.
+* Removed categories from related posts.
+* Removed categories from blog on homepage.
+* Fixed moved category under title on index.php.
+* Fixed Change “0” to “1” for off-canvas menu area for standard header in customizer & front-end.
+* Fixed Regenerated .pot file.
+* Fixed Javascript error.
+* Fixed Off-canvas close icon position.
+* Fixed logo text wide
+* Fixed related post title width.
+
 = 1.0.1 - Dec 12 2016 =
 * Minor fixes
 
