@@ -548,7 +548,7 @@ button:focus {
 .ol-side-menu-inner{
 	display: inline;
 	float: left;
-	padding: 50px 35px 20px 20px;
+	padding: 70px 35px 20px 20px;
 	width: 100%;
 }
 
@@ -631,8 +631,8 @@ button:focus {
 	font-size: 25px;
 	height: 25px;
 	position: absolute;
-	right: 30px;
-	top: 3%;
+	right: 35px;
+	top: 5%;
 	-webkit-transition: color 0.3s ease-in-out 0s;
 	transition: color 0.3s ease-in-out 0s;
 	width: 25px;
@@ -6422,6 +6422,10 @@ button:focus {
 		width: 100%;
 	}
 	
+	.ol-side-menu-close-btn{
+		top: 6%;
+	}
+		
 	
 	
 }
@@ -6486,7 +6490,7 @@ button:focus {
 	}
 	
 	.ol-side-menu-inner {
-		padding: 50px 35px 100px 20px;
+		padding: 80px 35px 100px 20px;
 	}
 	
 	.flex-viewport {
@@ -8049,9 +8053,12 @@ button:focus {
 		top: 26%;
 	}
 	
-	
 	.ol-subscribe-content .mc4wp-form{
 		width: 100%;
+	}
+	
+	.ol-side-menu-close-btn{
+		top: 16%;
 	}
 	
 	
@@ -8109,7 +8116,7 @@ button:focus {
 	}
 	
 	.ol-side-menu-inner {
-		padding: 50px 30px 50px 15px;
+		padding: 95px 30px 50px 15px;
 	}
 	
 	.flex-viewport {
@@ -9578,6 +9585,10 @@ button:focus {
 	.ol-blog-item-content .post-password-form input[type="password"]{
 		width: 100%;
 	}
+	
+	.ol-side-menu-close-btn{
+		top: 9%;
+	}
 
 }
 
@@ -10244,6 +10255,10 @@ button:focus {
 	.ol-preloader-five {
 		left: 39%;
 		top: 33%;
+	}
+	
+	.ol-side-menu-close-btn{
+		top: 12%;
 	}
 	
 	
