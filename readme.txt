@@ -86,7 +86,10 @@ License: https://creativecommons.org/choose/zero/
 
 == Changelogs ==
 
-= 1.0.3 - Mar 12 2016 =
+= 1.0.4 - April 7 2017 =
+* Remove id from serchform searchform.php
+
+= 1.0.3 - Mar 12 2017 =
 * Embed kirki.
 * Fixed blog title & added a default title text “Blog”.
 * Removed blog post meta border-right.
